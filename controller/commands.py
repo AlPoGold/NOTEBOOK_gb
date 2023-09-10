@@ -11,7 +11,6 @@ def open_file():
         view.ui_console.message_open()
         for elem in notebook_list_string:
             notebook_list.append(return_notes(elem))
-        print(notebook_list)
     else:
         view.ui_console.message_empty()
 
